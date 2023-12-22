@@ -86,7 +86,7 @@ public class MyService extends IntentService {
 
         Notification notification =
             new Notification.Builder(this, NOTIFICATION_CHANNEL_ID)
-                .setContentTitle("WP SMS Gateway")
+                .setContentTitle("SMS Gateway Press")
                 .setContentText("Service is running")
                 .setSmallIcon(R.drawable.ic_launcher_background)
                 .setContentIntent(pendingIntent)
